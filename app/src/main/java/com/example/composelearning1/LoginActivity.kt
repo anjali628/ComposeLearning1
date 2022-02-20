@@ -27,7 +27,6 @@ class LoginActivity:ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeLearning1Theme {
-
                 Surface(color = MaterialTheme.colors.background) {
                     LoginScreen()
                 }
@@ -111,6 +110,4 @@ class LoginActivity:ComponentActivity() {
         }
     }
 
-
 }
-
